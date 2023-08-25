@@ -78,7 +78,7 @@
   width: 25px;
 } */
 
-.btn {
+/* .btn {
   margin: 15px auto 0px auto;
   display: block;
   border-radius: 20px;
@@ -89,9 +89,9 @@
   font-size: 14px;
   padding: 8px 20px;
   cursor: pointer;
-}
+} */
 
-.box {
+/* .box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,19 +100,20 @@
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
   padding: 20px;
   width: 48%;
-}
+} */
 
-.saldo {
+/* .saldo {
   font-weight: 700;
   font-size: 32px;
-}
+} */
 
-.detalle {
+/* .detalle {
   color: #41d3be;
   font-size: 24px;
-}
+} */
 
-@media (max-width: 800px) {
+/* Se colocan dentro de los compenentes estilizados */
+/* @media (max-width: 800px) {
   .box {
     width: 95%;
     margin: 5px;
@@ -121,4 +122,4 @@
   .content {
     flex-direction: column;
   }
-}
+} */

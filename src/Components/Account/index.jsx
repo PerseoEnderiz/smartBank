@@ -5,7 +5,7 @@ import ojo from "../../assets/images/ojo.svg";
 import dinero from "../../assets/images/dinero.svg";
 
 import { styled } from "styled-components";
-import { Icono } from "../UI";
+import { Icono, Caja, Btn, Saldo, Detalle } from "../UI";
 
 // elemento que servira para obtener estilos heredados
 // Hereda los estilos del componente Icono
@@ -22,7 +22,8 @@ const Account = () => {
   };
 
   return (
-    <div className="box">
+    <Caja className="box">
+
       <h2>Cuenta</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponible
@@ -30,13 +31,13 @@ const Account = () => {
           <Icono className="imagen-icono" src={dinero} alt="Icono de saldo" />
         </span>
         {toggleState ? (
-          <div className="saldo">
-            <span className="detalle">$</span> 8,621.50
-          </div>
+          <Saldo className="saldo">
+            <Detalle className="detalle">$</Detalle> 8,621.50
+          </Saldo> 
         ) : null}
       </div>
 
-      <button className="btn" onClick={toggleHandler}>
+      <Btn className="btn" onClick={toggleHandler}>
 
         <IconoMargin
           // sustituido por IconMargin
@@ -46,8 +47,8 @@ const Account = () => {
           alt="Privacidad de saldo"
         />
 
-      </button>
-    </div>
+      </Btn>
+    </Caja>
   );
 };
 
