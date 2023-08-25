@@ -20,18 +20,36 @@ const Logo = styled.img`
   width: 50px;
 `
 
+// Tambiens e pueden usar props
+// ${ funcion anonima }
+const BtnHeader = styled.a`
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 600;
+  border: 2px solid white;
+  
+  color: ${ 
+    (props) => props.primary ? "white" : colorPrimario 
+  };
+  background: ${
+    ( { primary  }) => primary ? "transparent" : "white" 
+  };
+`
+
 
 const Header = () => {
   return (
     <StyleHeader>
       <Logo className="imagen-logo" src={logo} alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <BtnHeader className="btn-secundario" href="https://google.com">
           Ayuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </BtnHeader>
+        <BtnHeader primary="true" className="btn-primario" href="https://google.com">
           Salir
-        </a>
+        </BtnHeader>
       </div>
     </StyleHeader>
   );

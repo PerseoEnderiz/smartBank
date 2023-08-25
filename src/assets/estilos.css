@@ -11,6 +11,9 @@
   color: grey;
 } */
 
+
+/* botones que solo difieren en fondo y color */
+/* 
 .btn-primario {
   text-align: center;
   border-radius: 3px;
@@ -32,7 +35,7 @@
   background: white;
   color: #41d3be;
 }
-
+ */
 .title {
   color: grey;
   padding: 25px 0;
@@ -48,7 +51,7 @@
   align-items: center;
 }
  */
- 
+
 .container {
   background-color: #f1f1f1;
   min-height: 90vh;
@@ -61,10 +64,10 @@
   justify-content: space-between;
 }
 
-.imagen-logo {
+/* .imagen-logo {
   height: 50px;
   width: 50px;
-}
+} */
 
 .imagen-icono {
   height: 25px;
