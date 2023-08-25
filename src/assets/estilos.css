@@ -36,10 +36,11 @@
   color: #41d3be;
 }
  */
-.title {
+
+/* .title {
   color: grey;
   padding: 25px 0;
-}
+} */
 
 /* estilos usados en componente header */
 /* .header {
@@ -52,7 +53,8 @@
 }
  */
 
-.container {
+ /* usados en componente container */
+/* .container {
   background-color: #f1f1f1;
   min-height: 90vh;
   padding: 0px 15vw;
@@ -62,17 +64,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 /* .imagen-logo {
   height: 50px;
   width: 50px;
 } */
 
-.imagen-icono {
+/* Icono usado en componente account */
+/* icono sustituido en "../components/UI/index.js" */
+/* .imagen-icono {
   height: 25px;
   width: 25px;
-}
+} */
 
 .btn {
   margin: 15px auto 0px auto;
