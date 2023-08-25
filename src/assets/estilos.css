@@ -38,7 +38,8 @@
   padding: 25px 0;
 }
 
-.header {
+/* estilos usados en componente header */
+/* .header {
   background-color: #41d3be;
   display: flex;
   justify-content: space-between;
@@ -46,7 +47,8 @@
   height: 10vh;
   align-items: center;
 }
-
+ */
+ 
 .container {
   background-color: #f1f1f1;
   min-height: 90vh;
