@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import React from "react";
+import IconFilter from "../../IconFilter";
 
 const Tarjeta = styled.div`
     box-shadow: 0.3rem 0.3rem 1.25rem 0 rgba(0,0,0,0.1);
@@ -24,6 +25,7 @@ const Info =styled.div`
 export default ({cargo}) => {
     const {id, type, value, from, date} = cargo;
     return <Tarjeta>
+        { IconFilter(type) }
         <Info>
             <span className="type">{type}</span>
             <span>{from}</span>
