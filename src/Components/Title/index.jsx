@@ -5,7 +5,7 @@ import styled from "styled-components"
 // Este codigo es el dado por la biblioteca styled components
 // Se instala extension en vscode "styled components" mpara dar formato
 const Title = styled.h1`
-  color: grey;
+  color: ${({theme})=>theme.text};
   padding: 25px 0px;
   // es codigo css en un jsx
 `

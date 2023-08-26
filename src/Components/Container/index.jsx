@@ -7,7 +7,8 @@ import { styled } from "styled-components";
 import List from "../List";
 
 const StyleContenedor = styled.div`
-  background-color: #f1f1f1;
+  /* Al color de fondo agregale el color que recibas del tema */
+  background-color: ${({theme})=>theme.body};
   min-height: 90vh;
   padding: 0px 15vw;
 `
