@@ -5,3 +5,5 @@ export { default as salud } from './salud.svg';
 export { default as transporte } from './transporte.svg';
 export { default as utilidades } from './utilidades.svg';
 export { default as otros } from './otros.svg';
+export { default as themeOn } from './themeOn.svg';
+export { default as themeOff } from './themeOff.svg';

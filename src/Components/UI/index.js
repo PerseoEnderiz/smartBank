@@ -6,6 +6,10 @@ export const Icono = styled.img`
     color: ${({theme})=>theme.text};
 `;
 
+export const IconoTema = styled(Icono)`
+    filter: ${({ theme }) => theme.filter};
+`
+
 export const Btn = styled.button`
     margin: 15px auto 0px auto;
     display: block;
@@ -44,4 +48,11 @@ export const Detalle = styled.span`
     color: #41d3be;
     font-size: 24px;
 `;
-
+ export const BtnTheme = styled.button`
+    position: absolute;
+    top: 4vh;
+    right: 1.25rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+`
